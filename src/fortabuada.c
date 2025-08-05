@@ -3,7 +3,7 @@
 
 int main(){
     system("clear");
-    int i , num;
+    int i , inicial, final;
     printf("Digite um numero para a tabuada\n");
     scanf("%d",&num);
     for(i = 1 ; i <= 10 ; i++){

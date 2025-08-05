@@ -2,14 +2,17 @@
 #include <stdlib.h>
 int main(){
     system("clear");
-    int i , num;
-    printf("Digite dois numeros entre 1 e 100\n");
-    scanf("%d",&num);
-    for(i = 1 ; i <= 100 ; i++){
+    int i , inicial, final;
+    printf("Digite um numero inicial\n");
+    scanf("%d",&inicial);
+    printf("Digite um valor final\n");
+    scanf("%d", &final);
+    for(i = inicial; i <= final ; i++){
         if(i % 2 == 0){
-            printf("%d x %d\n" ,num ,i, (num*i));
+            printf("%d\n", i);
         }
+    }
         return 0;
 
-    }
+    
 }

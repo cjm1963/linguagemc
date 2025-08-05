@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 int main(){
-    int linha = 1;
+    int linha = 20;
     int coluna = 1;
-    while(linha <= 20){
+    while(linha >= 1){
         while(coluna <= linha){
 
         
-            printf("@ ");
+            printf("@   ");
             coluna++; 
     }
     coluna = 1;//resetar a variavel coluna

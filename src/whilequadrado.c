@@ -5,7 +5,7 @@ int main(){
     int linha = 1;
     int coluna = 1;
     while(linha <= 10){
-        while(coluna <= 25){
+        while(coluna <= 25L){
             printf("*");
             coluna++;
         }

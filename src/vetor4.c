@@ -15,4 +15,9 @@ int main(){
         printf("digite outro valor\n");
         scanf("%d" ,&valor);
     }
+    printf("\n========== Valores digitados pelo usuario==========\n");
+    for(i = 0 ; i < qtd ; i++){
+        printf("%d | ",vetor[i]);
+    }
+    printf("\n");
 }

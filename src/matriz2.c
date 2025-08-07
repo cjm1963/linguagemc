@@ -27,5 +27,18 @@ int main(){
     valores [4][2] = 69;
     valores [4][3] = 666;
 
-    
+    int linha, coluna;
+      for(linha = 0 ; linha <=4 ; linha++){
+        for(coluna = 0 ; coluna <=3 ; coluna++){
+           if(valores[linha][coluna]% 2 == 0){
+
+               printf(" | %d \t",valores[linha][coluna]);
+           }
+          
+         }
+          printf("\n");
+
+
+}
+return 0;
 }
